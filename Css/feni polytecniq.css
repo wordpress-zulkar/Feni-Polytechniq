@@ -1,0 +1,122 @@
+body{
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+.blue,
+.header ul,
+.header .sub-menu,
+.btn1 a,
+.btn1{
+	color: #ffffff;
+}
+a,
+.btn1 a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.blue{
+	padding: 12px;
+	background: #0060B1;
+}
+.fa{
+	margin-left: 65px;
+}
+.phn{
+	
+	margin-right: 20px;
+}
+
+.mail{
+	margin-right: 30px;
+}
+.header{
+	overflow: hidden;
+}
+.header-img{
+	margin-left: 15px;
+	margin-top: 15px;
+	height: 50px;
+}
+.header ul{
+	margin-left: 100px;
+	overflow: hidden;
+}
+.header ul li{
+	list-style-type: none;
+	float: left;
+	/*width: 80%;*/
+}
+.header ul li a{
+	color: #000000;
+	display: inline-block;
+	font-weight: 600;
+	line-height: 20px;
+	padding: 15px 0;
+}
+.header ul li a:hover{
+	color: #0060b1;
+}
+.header .sub-menu{
+	display: none;
+	position: absolute; 
+}
+
+.header .sub-menu a{
+	color: #000000;
+	display: block;
+}
+.header .sub-menu a:hover{
+	color: #0060b1;
+	
+}
+.header .menu:hover .sub-menu{
+	display: block;
+}
+.btn{
+	background: #49C32C;
+	padding: 15px 20px;
+}
+
+.slide{
+	background: red;
+	height: 500px;
+}
+.galary{
+	background: #293843;
+	height: 300px;
+}
+/*media*/
+.media{
+	margin-left: 70px;
+	margin-right: 70px;
+}
+.media .left{
+	width: 70%;
+}
+h2{
+	padding: 20px;
+}
+.p{
+	justify-content: center;
+	display: flex;
+	font-weight: 400;
+}
+.btn1{
+	width: 100%;
+	padding: 10px;
+	background: #0060B1;
+	text-transform: capitalize;
+}
+p{
+	line-height: 24px;
+}
+ol{
+	line-height: 24px;
+	font-size: 17px;
+}
+.big{
+	line-height: 24px;
+	font-size: 17px;
+}
